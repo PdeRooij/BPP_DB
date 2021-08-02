@@ -28,7 +28,10 @@ CREATE TABLE bpp_variables (
                                         variable text PRIMARY KEY,
                                         value text NOT NULL
                                     );
-INSERT INTO "bpp_variables" VALUES('db_version','0.2');
+INSERT INTO "bpp_variables" VALUES('db_version','0.21');
+INSERT INTO "bpp_variables" VALUES('exe_level_bonus','0.22');
+INSERT INTO "bpp_variables" VALUES('ca_level_suit_bonus','0.05');
+INSERT INTO "bpp_variables" VALUES('worker_ration_consumption','0.6');
 CREATE TABLE factories (
                                         factory text PRIMARY KEY,
                                         tech integer,
